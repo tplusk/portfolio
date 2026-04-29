@@ -5,7 +5,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 function About() {
   return (
-    <section id="about" className="conatiner text-center">
+    <section id="about" className="container text-center">
       <div className="row">
         <div className="col-md-8" offset-md-2>
           <div className="profile-image-container">

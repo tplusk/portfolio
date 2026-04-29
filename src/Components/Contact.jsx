@@ -6,7 +6,7 @@ import { Breadcrumb } from "react-bootstrap";
 import "./styles.css";
 
 function Contact() {
-  const breadcumbsPaths = [
+  const breadcrumbsPaths = [
     {
       title: "Home",
       to: "/",
@@ -19,7 +19,7 @@ function Contact() {
 
   return (
     <section id="contact" className="container">
-      <Breadcrumbs paths={breadcumbsPaths} />
+      <Breadcrumbs paths={breadcrumbsPaths} />
       <h2 className="section-title">Contact</h2>
       <p className="section-description">
         Hit me up if you want to collaborate
