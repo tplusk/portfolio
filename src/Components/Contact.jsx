@@ -23,10 +23,9 @@ function Contact() {
       <Breadcrumbs paths={breadcrumbsPaths} />
       <h2 className="section-title">Contact</h2>
       <p className="section-description">
-        Hit me up if you want to collaborate on following links
+        Hit me up if you want to collaborate on the following links
       </p>
       <ul className="contact-list list-unstyled">
-        {/* not sure if I want to share my e-mail yet */}
         <li>
           <Nav.Link href="mailto:tplusk.uk@gmail.com">
             <FontAwesomeIcon
