@@ -74,6 +74,10 @@ function Skills() {
         </li>
         <li>
           <FontAwesomeIcon icon={faCode} className="mr-2" />
+          Bootstrap
+        </li>
+        <li>
+          <FontAwesomeIcon icon={faCode} className="mr-2" />
           Lighthouse
         </li>
         <li>

@@ -32,6 +32,10 @@ const Header = () => {
             <span>Resume</span>
             <FontAwesomeIcon icon={faFileAlt} className="ml-2 text-light ho" />
           </Nav.Link>
+          <Nav.Link as={Link} to={"/skills"}>
+            <span>Skills</span>
+            <FontAwesomeIcon icon={faCode} className="ml-2 text-light -ho" />
+          </Nav.Link>
           <Nav.Link as={Link} to="/projects">
             <span>Projects</span>
             <FontAwesomeIcon icon={faCode} className="ml-2 text-light ho" />
