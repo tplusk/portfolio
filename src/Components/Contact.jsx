@@ -2,8 +2,9 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { Breadcrumb } from "react-bootstrap";
+import Breadcrumbs from "./Breadcrumbs";
 import "./styles.css";
+import { Nav } from "react-bootstrap";
 
 function Contact() {
   const breadcrumbsPaths = [
@@ -27,16 +28,34 @@ function Contact() {
       <ul className="contact-list list-unstyled">
         {/* not sure if I want to share my e-mail yet */}
         <li>
-          <FontAwesomeIcon icon={faEnvelope} className="contact-form" />
-          e-mail address comes here
+          <Nav.Link href="mailto:tplusk.uk@gmail.com">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              size="lg"
+              className="text-light ho"
+            />
+            <span className="sr-only">tplusk.uk@gmail.com</span>
+          </Nav.Link>
         </li>
         <li>
-          <FontAwesomeIcon icon={faLinkedin} className="contact-icon" />
-          LinkedIn
-        </li>
-        <li>
-          <FontAwesomeIcon icon={faGithub} className="contact-icon" />
-          GitHub
+          <nav>
+            <Nav.Link href="https://www.linkedin.com/in/tamas-kis-1ab34935a/?skipRedirect=true">
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                size="lg"
+                className="text-light ho"
+              />
+              <span className="sr-only">Linkedin</span>
+            </Nav.Link>
+            <Nav.Link href="https://github.com/tplusk">
+              <FontAwesomeIcon
+                icon={faGithub}
+                size="lg"
+                className="text-light ho"
+              />
+              <span className="st-only">GitHub</span>
+            </Nav.Link>
+          </nav>
         </li>
       </ul>
     </section>
