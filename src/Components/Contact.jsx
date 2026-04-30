@@ -23,7 +23,7 @@ function Contact() {
       <Breadcrumbs paths={breadcrumbsPaths} />
       <h2 className="section-title">Contact</h2>
       <p className="section-description">
-        Hit me up if you want to collaborate
+        Hit me up if you want to collaborate on following links
       </p>
       <ul className="contact-list list-unstyled">
         {/* not sure if I want to share my e-mail yet */}
@@ -34,7 +34,7 @@ function Contact() {
               size="lg"
               className="text-light ho"
             />
-            <span className="sr-only">tplusk.uk@gmail.com</span>
+            <span className="sr-only">e-mail</span>
           </Nav.Link>
         </li>
         <li>
